@@ -1,72 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="niKiyfz7SrqyH2Yt5k69dowqwXa_hP1g2HWRiST4cmk" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="niKiyfz7SrqyH2Yt5k69dowqwXa_hP1g2HWRiST4cmk">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Teen Patti & Slot Game Previews – ExplorerSlots</title>
   <meta name="description" content="Explore official previews for all Teen Patti and slot games at ExplorerSlots.com. Find bonus offers, policy links, and gameplay information in one place.">
-  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Aestero-UI/games/main/explorer-slot-logo.png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://raw.githubusercontent.com/Aestero-UI/games/main/explorer-slot-logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #000000;
+      --card-bg: #1a1a1a;
+      --text: #eaeaea86;
+      --subtext: #bbbbbba4;
+      --accent: #00e676;
+      --link: #1e88e5;
+      --table-border: rgba(255, 255, 255, 0.258);
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
     body {
-      background-color: #000;
-      color: #fff;
+      background: var(--bg);
+      color: var(--text);
       font-family: 'Inter', sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 3rem auto;
       padding: 0 1.5rem;
-      line-height: 1.7;
     }
     h1 {
+      font-size: 2rem;
+      font-weight: 700;
       text-align: center;
-      color: #00e676;
-      font-size: 1.6rem;
-      margin-bottom: 0.3rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-shadow: 0 0 8px var(--accent);
     }
     p.description {
       text-align: center;
-      font-size: 0.95rem;
-      color: #bbb;
+      color: var(--subtext);
+      font-size: 1rem;
       margin-bottom: 2rem;
     }
-    ul {
+    .game-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
       list-style: none;
-      padding: 0;
-      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
-    li {
-      margin: 0.7rem 0;
-      border-bottom: 1px solid #222;
-      padding-bottom: 0.7rem;
+    .game-list li {
+      background: var(--card-bg);
+      /* border: none removes the card border */
+      border: none;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      min-height: 60px;
     }
-    a {
-      color: #1e88e5;
-      text-decoration: none;
+    .game-list li:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .game-list a {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.75rem 1rem;
+      color: var(--link);
       font-weight: 600;
-      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      height: 100%;
     }
-    a:hover {
-      text-decoration: underline;
+    .game-list a:hover {
+      color: var(--accent);
+    }
+    .table-container {
+      overflow-x: auto;
+      margin-bottom: 2rem;
+    }
+    .details-table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background: #000;
+      font-size: 0.95rem;
+    }
+    .details-table th,
+    .details-table td {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--table-border);
+      color: var(--text);
+    }
+    .details-table thead th {
+      color: var(--accent);
+      text-align: left;
     }
     footer {
       margin-top: 4rem;
+      padding-top: 2rem;
+      /* lowered opacity for the footer top border */
+      border-top: 1px solid rgba(255,255,255,0.2);
       text-align: center;
       font-size: 0.9rem;
-      color: #888;
+      color: var(--subtext);
+    }
+    @media (max-width: 480px) {
+      h1 { font-size: 1.6rem; }
+      .game-list { grid-template-columns: 1fr; }
+      .details-table {
+        width: 100%;
+        font-size: 0.85rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>ExplorerSlots: Teen Patti & Slot Game Hub</h1>
+  <h1>ExplorerSlots Game Hub</h1>
+
   <p class="description">
-    Discover the complete list of all active Teen Patti and slot game previews from ExplorerSlots. 
+    Explore all active Teen Patti and slot game previews—one click to jump into every adventure.
   </p>
-  <ul>
+
+  <ul class="game-list">
     <li><a href="https://www.explorerslots.com/" target="_blank">🌐 Home Page</a></li>
-    <li><a href="https://www.explorerslots.com/about.html" target="_blank">📄 About Us</a></li>
-    <li><a href="https://www.explorerslots.com/term.html" target="_blank">📘 Terms & Conditions</a></li>
-    <li><a href="https://www.explorerslots.com/policy.html" target="_blank">🔒 Privacy Policy</a></li>
     <li><a href="https://www.explorerslots.com/preview.html?slug=New-Teen-Patti-Gold" target="_blank">🎮 New Teen Patti Gold</a></li>
     <li><a href="https://www.explorerslots.com/preview.html?slug=New-Teen-Patti-Master" target="_blank">🎮 New Teen Patti Master</a></li>
     <li><a href="https://www.explorerslots.com/preview.html?slug=Teen-patti-master" target="_blank">🎮 Teen Patti Master</a></li>
@@ -75,7 +138,56 @@
     <li><a href="https://www.explorerslots.com/preview.html?slug=All-Teen-Patti" target="_blank">🎮 All Teen Patti Games</a></li>
     <li><a href="https://www.explorerslots.com/preview.html?slug=Teen-Patti-Gold" target="_blank">🎮 Teen Patti Gold</a></li>
     <li><a href="https://www.explorerslots.com/preview.html?slug=Old-All-Teen-Patti-Master" target="_blank">🎮 Old All Teen Patti Master</a></li>
+    <li><a href="https://www.explorerslots.com/about.html" target="_blank">📄 About Us</a></li>
+    <li><a href="https://www.explorerslots.com/term.html" target="_blank">📘 Terms & Conditions</a></li>
+    <li><a href="https://www.explorerslots.com/policy.html" target="_blank">🔒 Privacy Policy</a></li>
   </ul>
+
+  <div class="table-container">
+    <table class="details-table">
+      <thead>
+        <tr>
+          <th>Game</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>New Teen Patti Gold</td>
+          <td>Live tables, VIP rooms, daily rewards</td>
+        </tr>
+        <tr>
+          <td>New Teen Patti Master</td>
+          <td>Multi-device play, private tables, quick chat</td>
+        </tr>
+        <tr>
+          <td>Teen Patti Master</td>
+          <td>Classic rules, leaderboards, social mode</td>
+        </tr>
+        <tr>
+          <td>Old Teen Patti Gold</td>
+          <td>Retro theme, low stakes, offline mode</td>
+        </tr>
+        <tr>
+          <td>Old Teen Patti Master</td>
+          <td>Legacy UI, cashback offers, community chat</td>
+        </tr>
+        <tr>
+          <td>All Teen Patti Games</td>
+          <td>Full catalog, filters, search</td>
+        </tr>
+        <tr>
+          <td>Teen Patti Gold</td>
+          <td>Standard gameplay, gold coins, bonus rounds</td>
+        </tr>
+        <tr>
+          <td>Old All Teen Patti Master</td>
+          <td>Vintage interface, varied stakes, tournament support</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <footer>
     © 2025 ExplorerSlots.com • All rights reserved.
   </footer>
