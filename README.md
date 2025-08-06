@@ -1,12 +1,12 @@
-# 🎮 ExplorerSlots – Game Index & Preview Links
+# 🎮 Yono Store – Game Index & Preview Links
 
-Welcome to the official GitHub repository for [ExplorerSlots.com](https://www.explorerslots.com), your reliable platform for discovering and playing the latest real-cash Teen Patti and slot games. This repository serves as a central hub for all active game preview links, policy documents, and platform details.
+Welcome to the official GitHub repository for [Yono Store](https://www.yonostore.app/), your reliable platform for discovering and playing the latest real-cash Teen Patti and slot games. This repository serves as a central hub for all active game preview links, policy documents, and platform details.
 
 ---
 
 ## 🖼️ Visual Preview
 
-[![ExplorerSlots Preview](https://github.com/Aestero-UI/games/blob/main/Screenshot%20(107).png)](https://www.explorerslots.com)
+[![Yono Store Preview](https://github.com/Aestero-UI/games/blob/main/Screenshot%20(107).png)](https://www.yonostore.app/)
 
 > Click the image above to visit the official ExplorerSlots homepage.
 
@@ -17,22 +17,20 @@ Welcome to the official GitHub repository for [ExplorerSlots.com](https://www.ex
 Here are all essential links for accessing the platform, understanding its policies, and exploring active game previews:
 
 ### 🌐 Website Information
-- [Home](https://www.explorerslots.com/)
-- [About Us](https://www.explorerslots.com/about.html)
-- [Terms & Conditions](https://www.explorerslots.com/term.html)
-- [Privacy Policy](https://www.explorerslots.com/policy.html)
+- [Home](https://www.yonostore.app/)
+- [About Us](https://www.yonostore.app/about)
+- [Terms & Conditions](https://www.yonostore.app/terms)
+- [Privacy Policy](https://www.yonostore.app/privacy)
+- [Contact us](https://www.yonostore.app/contact)
 
 ### 🎯 Game Previews
 Explore our latest and most popular Teen Patti game variations:
 
-- [New Teen Patti Gold](https://www.explorerslots.com/preview.html?slug=New-Teen-Patti-Gold)
-- [New Teen Patti Master](https://www.explorerslots.com/preview.html?slug=New-Teen-Patti-Master)
-- [Teen Patti Master](https://www.explorerslots.com/preview.html?slug=Teen-patti-master)
-- [Old Teen Patti Gold](https://www.explorerslots.com/preview.html?slug=Old-Teen-Patti-Gold)
-- [Old Teen Patti Master](https://www.explorerslots.com/preview.html?slug=Old-Teen-Patti-Master)
-- [All Teen Patti Games](https://www.explorerslots.com/preview.html?slug=All-Teen-Patti)
-- [Teen Patti Gold](https://www.explorerslots.com/preview.html?slug=Teen-Patti-Gold)
-- [Old All Teen Patti Master](https://www.explorerslots.com/preview.html?slug=Old-All-Teen-Patti-Master)
+- [New Teen Patti Gold](https://www.yonostore.app/teen-patti-gold)
+- [New Teen Patti Master](https://www.yonostore.app/teen-patti-master)
+- [Teen Patti Master](https://www.yonostore.app/old-teen-patti-master)
+- [Teen Patti Gold](https://www.yonostore.app/old-teen-patti-gold)
+- [All Yono Slot Games](https://www.yonostore.app/)
 
 ---
 
@@ -50,6 +48,6 @@ Whether you're a player, reviewer, or affiliate, this link index helps you explo
 
 ## 📬 Stay Connected
 
-We continuously update the ExplorerSlots platform with fresh game releases and offers. Bookmark the site and follow this repo to keep track of future updates.
+We continuously update the Yono Store platform with fresh game releases and offers. Bookmark the site and follow this repo to keep track of future updates.
 
-> Official Website: [https://www.explorerslots.com](https://www.explorerslots.com)
+> Official Website: [Yono Store](https://www.yonostore.app/)
